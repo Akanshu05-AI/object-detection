@@ -6,7 +6,7 @@ This is a collection of Python scripts I built to handle real-time object detect
 * **`people_counter.py`**: Similar logic but tuned for human detection and tracking in tighter spaces.
 * **`object_detection.py`**: The base script for general detection tasks.
 
-### 🛠 How I built it
+### How I built it
 The project is built on **Python** and uses **YOLOv8** for the heavy lifting (detection). I used **OpenCV** for the video processing and **CVZone** to help with the UI overlays like the counter boxes and lines.
 
 **Dependencies you'll need:**
@@ -15,7 +15,7 @@ The project is built on **Python** and uses **YOLOv8** for the heavy lifting (de
 * `cvzone`
 * `numpy`
 
-### 🚀 How to run it
+### How to run it
 1. Clone the repo to your machine.
 2. Make sure you have the dependencies installed (`pip install -r requirements.txt`).
 3. Run the specific script you need. For example:
@@ -23,14 +23,14 @@ The project is built on **Python** and uses **YOLOv8** for the heavy lifting (de
 python car_counter.py
 ```
 
-### 📝 Notes on implementation
+### Notes on implementation
 * **Masking:** I used custom masks to ignore areas of the video that aren't relevant (like sidewalks in the car counter), which helps reduce false positives.
 * **Tracking:** The system assigns a unique ID to each object so it doesn't count the same person or car twice once they've crossed the line.
 
 ### To-Do / Future Improvements
-* [ ] Add support for multiple camera feeds.
-* [ ] Optimize the tracking for low-light video footage.
-* [ ] Create a web dashboard to display the count data.
+*  Add support for multiple camera feeds.
+*  Optimize the tracking for low-light video footage.
+*  Create a web dashboard to display the count data.
 
 ### Why this version works:
 * **First-person language:** Using "I built," "I used," and "I used custom masks" makes it clear this is your personal project.
